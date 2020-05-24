@@ -33,17 +33,16 @@ section {
 
 /*Логотип*/
 .logo {
-  position: absolute;
   z-index: 2;
-  top: 30px;
-  left: 64px;
-
   width: 183px;
 }
 
 .logo_place_header {
   background-image: url("../images/logo_place_header.svg");
   height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
 }
 
 .logo_place_footer {
@@ -225,15 +224,15 @@ section {
   color: white;
 }
 
-.table__title_theme_dark {
+.section-title_theme_dark {
   color: white;
 }
 
-.table__subtitle_theme_dark {
+.section-subtitle_theme_dark {
   color: white;
 }
 
-.table__theme_dark {
+.table_theme_dark {
   color: white;
 }
 
